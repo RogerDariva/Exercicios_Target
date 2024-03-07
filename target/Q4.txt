@@ -1,0 +1,12 @@
+4) Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em uma sala diferente.
+ Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser.
+  Seu objetivo é descobrir qual interruptor controla qual lâmpada.
+
+Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
+
+Resposta: Acenderia o interruptor1, aguardaria um certo tempo e depois o apagaria.
+ Além disso, acenderia o interruptor2 e o manteria aceso. A partir dai, iria para a primeira checagem na sala1,
+ caso a lampada estivesse acesa, ela está conectada ao interruptor 2. Caso estivesse apagada, eu teria que sentir
+ se a temperatura da mesma, se estivesse fria, quer dizer que está associada ao interruptor 3, que em nenhum momento foi ligado.
+ Caso ela estivesse quente, estaria associada ao interruptor 1, que foi ligado por um tempo e depois apagado. E assim a lógica 
+ seguiria em duas visitas às salas e por eliminação chegariamos a conclusão.
